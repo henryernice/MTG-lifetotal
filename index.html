@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+    <body >
+        <div id="createGame">
+            <h1 style="text-align: center;">MTG LIFETOTAL (by henryernice.com)</h1>
+            <div class="centerdiv">
+                <p class="createGameElement"> Starting life: <input type="number" name="Starting life" id="startinglife" value="40"></p>
+                <p class="createGameElement"> Players:  <input type="number" name="Players" id="playercount" value="4" max="4" min="2"></p>
+                <br>
+                <button onclick="createGame(document.getElementById('startinglife').value, document.getElementById('playercount').value)">Create game</button>
+            </div>
+        </div>
+    </body>
+</html>
